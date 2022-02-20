@@ -1,4 +1,4 @@
-const PORT = 3000
+const PORT = process.enc.PORT || 5000;
 const express = require('express')
 const axios = require('axios')
 const { response } = require('express')
